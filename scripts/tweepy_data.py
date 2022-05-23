@@ -1,12 +1,19 @@
+if __name__ == '__main__':
+    import config
+    import nba_players
+else: 
+    from scripts import config
+    from scripts import nba_players
+
 import tweepy
+import random as rd
 import numpy
-import random as rd 
-import config
 
-client = tweepy.Client(bearer_token=config.BEARER_TOKEN)
+client = tweepy.Client(bearer_token = config.BEARER_TOKEN)
+player_names = nba_players.NBA_PLAYERS
 
-def getRandomTweet():
-    
+def randomNBAPlayer():
+    return rd.choice(player_names)
 
-if __name__ == "__main__":
-    print(rd.randrange(1,10))
+if __name__ == '__main__':
+    print(randomNBAPlayer())
