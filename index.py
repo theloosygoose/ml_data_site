@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-import scripts.tweepy_data as nba_twitter
+import scripts.rand_query as nba_twitter
 
 app = Flask(__name__)
 
