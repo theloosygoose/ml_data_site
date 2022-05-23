@@ -18,7 +18,7 @@ NBA_PLAYERS = [
     },
     {
         "PlayerName": "Jayson Tatum",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Luka Doncic",
@@ -30,7 +30,7 @@ NBA_PLAYERS = [
     },
     {
         "PlayerName": "Ja Morant",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Anthony Davis",
@@ -46,15 +46,15 @@ NBA_PLAYERS = [
     },
     {
         "PlayerName": "RJ Barrett",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Joel Embiid",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Klay Thompson",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Russell Westbrook",
@@ -62,19 +62,19 @@ NBA_PLAYERS = [
     },
     {
         "PlayerName": "Jordan Poole",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Jaylen Brunson",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Draymond Green",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Marcus Smart",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Jimmy Butler",
@@ -86,15 +86,15 @@ NBA_PLAYERS = [
     },
     {
         "PlayerName": "James Harden",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Tyrese Maxey",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Nikola Jokic",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Paul George",
@@ -102,22 +102,22 @@ NBA_PLAYERS = [
     },
     {
         "PlayerName": "Kawhi Leonard",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Rudy Gobert",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Bam Adebayo",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Kyle Lowry",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     },
     {
         "PlayerName": "Pascal Siakam",
-        "nicknames": [None]
+        "nicknames": ['NULL']
     }
 ]

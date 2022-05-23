@@ -2,7 +2,7 @@ import nba_players
 import random as rd
 
 
-def getRandomPlayer(choice='name'):
+def getRandomPlayer(choice = 'all'):
     player_names = nba_players.NBA_PLAYERS
     randomPlayer = rd.choice(player_names)
 
