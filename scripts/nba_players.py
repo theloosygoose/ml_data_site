@@ -1,54 +1,123 @@
+
 NBA_PLAYERS = [
-    'Kristaps Porzingis',
-    'Fred VanVleet',
-    'Clint Capela',
-    'Klay Thompson',
-    'Tobias Harris',
-    'Michael Porter Jr.',
-    'Ben Simmons',
-    'Jamal Murray',
-    'Russell Westbrook',
-    'Kyle Lowry',
-    'Pascal Siakam',
-    'Deandre Ayton',
-    'Mike Conley',
-    'Malcolm Brogdon',
-    'Shai Gilgeous-Alexander',
-    'Nikola Vucevic',
-    "De'Aaron Fox",
-    'CJ McCollum',
-    'Brandon Ingram',
-    'Zach LaVine',
-    'Draymond Green',
-    'Domantas Sabonis',
-    'Julius Randle',
-    'Kyrie Irving',
-    'Zion Williamson',
-    'Ja Morant',
-    'Jaylen Brown',
-    'Karl-Anthony Towns',
-    'Jrue Holiday',
-    'Devin Booker',
-    'Donovan Mitchell',
-    'Trae Young',
-    'Bradley Beal',
-    'Bam Adebayo',
-    'Rudy Gobert',
-    'Khris Middleton',
-    'Kawhi Leonard',
-    'Chris Paul',
-    'Jayson Tatum',
-    'Paul George',
-    'Jimmy Butler',
-    'Joel Embiid',
-    'Damian Lillard',
-    'Luka Doncic',
-    'James Harden',
-    'Nikola Jokic',
-    'Anthony Davis',
-    'Steph Curry',
-    'LeBron James',
-    'Giannis Antetokounmpo',
-    'Kevin Durant'
+    {
+        "PlayerName": "LeBron James",
+        "nicknames": ['LeMickey', 'King James']
+    },
+    {
+        "PlayerName": "Stephen Curry",
+        "nicknames": ['Steph']
+    },
+    {
+        "PlayerName": "Giannis Antetokounmpo",
+        "nicknames": ['Greek Freak']
+    },
+    {
+        "PlayerName": "Kevin Durant",
+        "nicknames": ['KD']
+    },
+    {
+        "PlayerName": "Jayson Tatum",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Luka Doncic",
+        "nicknames": ['Luka Magic']
+    },
+    {
+        "PlayerName": "Trae Young",
+        "nicknames": ['Ice Trae']
+    },
+    {
+        "PlayerName": "Ja Morant",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Anthony Davis",
+        "nicknames": ['AD']
+    },
+    {
+        "PlayerName": "Damian Lillard",
+        "nicknames": ['Dame Time']
+    },
+    {
+        "PlayerName": "Devin Booker",
+        "nicknames": ['DBook']
+    },
+    {
+        "PlayerName": "RJ Barrett",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Joel Embiid",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Klay Thompson",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Russell Westbrook",
+        "nicknames": ['WestBrick']
+    },
+    {
+        "PlayerName": "Jordan Poole",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Jaylen Brunson",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Draymond Green",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Marcus Smart",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Jimmy Butler",
+        "nicknames": ['Jimmy Buckets']
+    },
+    {
+        "PlayerName": "Tyler Herro",
+        "nicknames": ['Tyler Hero']
+    },
+    {
+        "PlayerName": "James Harden",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Tyrese Maxey",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Nikola Jokic",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Paul George",
+        "nicknames": ['Playoff P', 'Pandemic P']
+    },
+    {
+        "PlayerName": "Kawhi Leonard",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Rudy Gobert",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Bam Adebayo",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Kyle Lowry",
+        "nicknames": [None]
+    },
+    {
+        "PlayerName": "Pascal Siakam",
+        "nicknames": [None]
+    }
 ]
-   

@@ -1,19 +1,31 @@
 if __name__ == '__main__':
     import config
-    import nba_players
+    import random_player
 else: 
     from scripts import config
-    from scripts import nba_players
+    from scripts import random_player
 
 import tweepy
 import random as rd
 import numpy
+import re
 
 client = tweepy.Client(bearer_token = config.BEARER_TOKEN)
-player_names = nba_players.NBA_PLAYERS
 
-def randomNBAPlayer():
-    return rd.choice(player_names)
+# Get Random Query
+def parseName(name):
+    name = re.split('\s', name)
+    return name
+
+def generateRandomQuery():
+    playerNameFull = random_player.getRandomPlayer('name')
+    playerNicknames = random_player.getRandomPlayer('nicknames')
+    
+    playerFirstName = re.split('\s', playerNameFull)[0]
+    playerLastName = re.split('\s', playerNameFull)[1]
+
+    query = "" + playerLastName + ' OR ' + playerNameFull + ' OR '
 
 if __name__ == '__main__':
-    print(randomNBAPlayer())
+    print(generateRandomQuery())
+    print(random_player.getRandomPlayer('nicknames'))
