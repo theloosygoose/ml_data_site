@@ -1,16 +1,8 @@
-if __name__ == '__main__':
-    import config
-    import random_player
-else: 
-    from scripts import config
-    from scripts import random_player
-
-import tweepy
+from scripts import random_player
 import random as rd
 import numpy
 import re
 
-client = tweepy.Client(bearer_token = config.BEARER_TOKEN)
 
 # Get Random Query
 def parseName(name):
@@ -24,11 +16,11 @@ def generateRandomQuery():
     playerLastName = re.split('\s', playerNameFull[0])[1]
 
     playerNicknames = playerNameFull[1]
-    query = '' + playerLastName + ' OR ' + playerFirstName + ' ' + playerLastName
+    query = '' + playerLastName + ' lang:en OR ' + playerFirstName + ' ' + playerLastName + ' lang:en'
 
     if (playerNicknames[0] != 'NULL'):
         for i in playerNicknames:
-            query += ' OR ' + i
+            query += ' OR ' + i + ' lang:en'
     else:
         print('No Nicknames')
 

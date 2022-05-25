@@ -1,4 +1,4 @@
-import nba_players
+from scripts import nba_players
 import random as rd
 
 

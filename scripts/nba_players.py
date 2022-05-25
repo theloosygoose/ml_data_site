@@ -98,7 +98,7 @@ NBA_PLAYERS = [
     },
     {
         "PlayerName": "Paul George",
-        "nicknames": ['Playoff P', 'Pandemic P']
+        "nicknames": ['Playoff P', 'Pandemic P','PG']
     },
     {
         "PlayerName": "Kawhi Leonard",
